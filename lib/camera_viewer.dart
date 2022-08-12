@@ -13,7 +13,7 @@ class CameraViewer extends GetView<ScanController> {
         return Container();
       }
       return SizedBox(
-          height: Get.height,
+          height: Get.height/2,
           width: Get.width,
           child: CameraPreview(controller.cameraController));
     }
